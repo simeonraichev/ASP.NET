@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction.csproj",
+      "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction.csproj",
       "projectName": "Exercises-ASP.NET Core Introduction",
-      "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction.csproj",
+      "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction.csproj",
       "packagesPath": "C:\\Users\\simeo\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\obj\\",
+      "outputPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\Exercises-ASP.NET Core Introduction\\Exercises-ASP.NET Core Introduction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
