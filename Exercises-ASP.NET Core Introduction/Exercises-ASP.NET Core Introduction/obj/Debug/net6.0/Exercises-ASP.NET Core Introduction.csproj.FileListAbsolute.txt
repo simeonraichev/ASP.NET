@@ -1,0 +1,26 @@
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\appsettings.Development.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\appsettings.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.staticwebassets.runtime.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.exe
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.deps.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.runtimeconfig.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\bin\Debug\net6.0\Exercises-ASP.NET Core Introduction.pdb
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.csproj.AssemblyReference.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.AssemblyInfoInputs.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.AssemblyInfo.cs
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.csproj.CoreCompileInputs.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.RazorAssemblyInfo.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.RazorAssemblyInfo.cs
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\scopedcss\bundle\Exercises-ASP.NET Core Introduction.styles.css
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\scopedcss\projectbundle\Exercises-ASP.NET Core Introduction.bundle.scp.css
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\refint\Exercises-ASP.NET Core Introduction.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.pdb
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\Exercises-ASP.NET Core Introduction.genruntimeconfig.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\Exercises-ASP.NET Core Introduction\Exercises-ASP.NET Core Introduction\obj\Debug\net6.0\ref\Exercises-ASP.NET Core Introduction.dll

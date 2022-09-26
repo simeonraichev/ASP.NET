@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Exercises-ASP.NET Core Introduction/1.0.0": {
+        "runtime": {
+          "Exercises-ASP.NET Core Introduction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercises-ASP.NET Core Introduction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
