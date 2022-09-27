@@ -28,16 +28,16 @@ namespace Exercises_ASP.NET_Core_Introduction.Controllers
         };
         public IActionResult ById(int id)
         {
-            var product = this.products.FirstOrDefault(p=> p.Id == id);
+            var product = this.products.FirstOrDefault(p => p.Id == id);
             if (product == null)
             {
                 return BadRequest();
             }
-            return View();
+            return View(product);
         }
         public IActionResult All()
         {
-            return View();
+            return View(this.products);
         }
     }
 }
