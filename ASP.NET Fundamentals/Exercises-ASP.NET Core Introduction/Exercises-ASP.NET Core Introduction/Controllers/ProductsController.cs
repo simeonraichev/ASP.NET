@@ -1,5 +1,6 @@
 ﻿using Exercises_ASP.NET_Core_Introduction.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace Exercises_ASP.NET_Core_Introduction.Controllers
 {
@@ -38,6 +39,14 @@ namespace Exercises_ASP.NET_Core_Introduction.Controllers
         public IActionResult All()
         {
             return View(this.products);
+        }
+        public IActionResult AllAsJson()
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+            };
+            return Json(products, options);
         }
     }
 }

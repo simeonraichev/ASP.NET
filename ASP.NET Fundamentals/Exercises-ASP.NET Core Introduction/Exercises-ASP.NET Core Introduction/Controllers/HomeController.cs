@@ -1,6 +1,7 @@
 ﻿using Exercises_ASP.NET_Core_Introduction.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace Exercises_ASP.NET_Core_Introduction.Controllers
 {
@@ -33,6 +34,7 @@ namespace Exercises_ASP.NET_Core_Introduction.Controllers
             ViewBag.Count = count;
             return View();
         }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
