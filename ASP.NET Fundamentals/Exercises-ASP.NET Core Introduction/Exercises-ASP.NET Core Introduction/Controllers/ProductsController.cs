@@ -48,5 +48,15 @@ namespace Exercises_ASP.NET_Core_Introduction.Controllers
             };
             return Json(products, options);
         }
+        public IActionResult AllAsText()
+        {
+            var text = string.Empty;
+            foreach (var pr in products)
+            {
+                text += $"Products {pr.Id}: {pr.Name} - {pr.Price}lv";
+                text += "\r\n";
+            }
+            return Content(text);
+        }
     }
 }
