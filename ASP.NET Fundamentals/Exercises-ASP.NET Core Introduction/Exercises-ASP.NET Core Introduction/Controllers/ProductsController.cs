@@ -1,5 +1,6 @@
 ﻿using Exercises_ASP.NET_Core_Introduction.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 using System.Text.Json;
 
 namespace Exercises_ASP.NET_Core_Introduction.Controllers
@@ -57,6 +58,18 @@ namespace Exercises_ASP.NET_Core_Introduction.Controllers
                 text += "\r\n";
             }
             return Content(text);
+        }
+        public IActionResult DownloadAsTextFile()
+        {
+            StringBuilder productAsText = new();
+            foreach (var pr in products)
+            {
+                productAsText.AppendLine($"Products {pr.Id}: {pr.Name} - {pr.Price}lv");
+            }
+            Response.Headers.Add("Content-Disposition", "attachment;");
+            byte[] textArr = Encoding.ASCII.GetBytes(productAsText.ToString());
+
+            return File(textArr, contentType: "text/plain");
         }
     }
 }
