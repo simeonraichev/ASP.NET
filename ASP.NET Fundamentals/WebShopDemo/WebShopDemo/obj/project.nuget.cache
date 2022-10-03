@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2DQsAdJgIjx3N3jliuVLU+G+x4Aeyo5f2nXErtygU/FmVq/0CTcG6RNqnsXeVdJ5XQ1daa941J4CvUUwplyjgQ==",
+  "dgSpecHash": "7rxYKuz7rZ4gbuJQurX9BXB6WdTk73TvS0hlh7U207N20R89WhJxXIWjDCWLtAYT6s0kv2T1ofEq7cYbbrrL9Q==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
+  "projectFilePath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo\\WebShopDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simeo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -37,9 +37,9 @@
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\6.0.9\\microsoft.dotnet.scaffolding.shared.6.0.9.nupkg.sha512",
-    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
-    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
-    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
+    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
+    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
+    "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.7\\microsoft.entityframeworkcore.design.6.0.7.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.7\\microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.7\\microsoft.entityframeworkcore.sqlserver.6.0.7.nupkg.sha512",

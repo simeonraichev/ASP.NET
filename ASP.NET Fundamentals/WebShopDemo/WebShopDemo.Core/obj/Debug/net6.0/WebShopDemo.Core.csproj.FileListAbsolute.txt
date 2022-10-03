@@ -11,3 +11,18 @@ D:\Programming\C# Web\Code\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShop
 D:\Programming\C# Web\Code\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\refint\WebShopDemo.Core.dll
 D:\Programming\C# Web\Code\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.pdb
 D:\Programming\C# Web\Code\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\ref\WebShopDemo.Core.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\Data\products.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.deps.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.runtimeconfig.json
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\bin\Debug\net6.0\WebShopDemo.Core.pdb
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.csproj.AssemblyReference.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.AssemblyInfoInputs.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.AssemblyInfo.cs
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.csproj.CoreCompileInputs.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\refint\WebShopDemo.Core.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.pdb
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\WebShopDemo.Core.genruntimeconfig.cache
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\WebShopDemo\WebShopDemo.Core\obj\Debug\net6.0\ref\WebShopDemo.Core.dll

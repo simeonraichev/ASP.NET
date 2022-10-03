@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj": {}
+    "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj": {
+    "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj",
+        "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj",
         "projectName": "WebShopDemo.Core",
-        "projectPath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj",
+        "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj",
         "packagesPath": "C:\\Users\\simeo\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\obj\\",
+        "outputPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -68,14 +90,14 @@
         }
       }
     },
-    "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj": {
+    "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj",
+        "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj",
         "projectName": "WebShopDemo.gRPC",
-        "projectPath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj",
+        "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.gRPC\\WebShopDemo.gRPC.csproj",
         "packagesPath": "C:\\Users\\simeo\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.gRPC\\obj\\",
+        "outputPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.gRPC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj": {
-                "projectPath": "D:\\Programming\\C# Web\\Code\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj"
+              "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj": {
+                "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Fundamentals\\WebShopDemo\\WebShopDemo.Core\\WebShopDemo.Core.csproj"
               }
             }
           }
