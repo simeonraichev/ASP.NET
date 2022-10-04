@@ -17,7 +17,7 @@ namespace ForumApp.Controllers
         public async Task<IActionResult> Index()
         {
             var model = await context.Posts
-                .Select(p=> new PostViewModel()
+                .Select(p => new PostViewModel()
                 {
                     Id = p.Id,
                     Title = p.Title,
@@ -30,38 +30,54 @@ namespace ForumApp.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            var model = new PostViewModel();
+            var model = new AddPostViewModel();
 
             ViewData["Title"] = "Add new Post";
-            return View("Edit", model);
+            return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Add(AddPostViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewData["Tilte"] = "Add new Post";
+                return View(model);
+            }
+            context.Posts.Add(new Post()
+            {
+                Title = model.Title,
+                Content = model.Content
+            });
+            await context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var post = await context.Posts.Where(p => p.Id == id).Select(p => new PostViewModel()
+            {
+                Id = p.Id,
+                Title = p.Title,
+                Content = p.Content
+            }).FirstOrDefaultAsync();
+
+            if (post != null)
+            {
+                return View(post);
+            }
+            return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Edit(PostViewModel model)
         {
-            ViewData["Tilte"] = model.Id == 0 ? "Add new Post" : "Edit post";
+            var post = await context.Posts.FindAsync(model.Id);
 
-            if (!ModelState.IsValid)
+            if (post != null)
             {
-                return View(model);
+                post.Title = model.Title;
+                post.Content = model.Content;
             }
-            if(model.Id == 0)
-            {
-                context.Posts.Add(new Post()
-                {
-                    Title = model.Title,
-                    Content=model.Content
-                });
-            }
-            else
-            {
-                var post = await context.Posts.FindAsync(model.Id);
 
-                if(post != null)
-                {
-                    post.Title = model.Title;
-                    post.Content = model.Content; 
-                }
-            }
             await context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
