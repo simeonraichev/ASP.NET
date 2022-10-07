@@ -17,6 +17,7 @@ namespace ForumApp.Controllers
         public async Task<IActionResult> Index()
         {
             var model = await context.Posts
+                .Where(p=> p.IsDeleted ==false)
                 .Select(p => new PostViewModel()
                 {
                     Id = p.Id,
@@ -79,6 +80,17 @@ namespace ForumApp.Controllers
             }
 
             await context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var post = await context.Posts.FindAsync(id);
+            if (post != null)
+            {
+                post.IsDeleted = true;
+                await context.SaveChangesAsync();
+            }
             return RedirectToAction(nameof(Index));
         }
     }

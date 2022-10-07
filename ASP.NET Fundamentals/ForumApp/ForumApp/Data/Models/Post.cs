@@ -20,5 +20,8 @@ namespace ForumApp.Data.Models
         [Required]
         [MaxLength(ContextMaxLength)]
         public string Content { get; set; } = null!;
+        [Comment("Marks record as deleted")]
+        [Required]
+        public bool IsDeleted { get; set; } = false;
     }
 }

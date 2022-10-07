@@ -59,3 +59,4 @@ D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\ForumApp\Fo
 D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\ForumApp\ForumApp\obj\Debug\net6.0\ForumApp.pdb
 D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\ForumApp\ForumApp\obj\Debug\net6.0\ForumApp.genruntimeconfig.cache
 D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\ForumApp\ForumApp\obj\Debug\net6.0\ref\ForumApp.dll
+D:\Programming\C# Web\ASP.NET Fundamentals\Code\ASP.NET Fundamentals\ForumApp\ForumApp\bin\Debug\net6.0\libman.json
