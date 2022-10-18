@@ -58,49 +58,49 @@ namespace TaskBoardApp.Data
                 .WithMany(b => b.MyTasks)
                 .HasForeignKey(t => t.BoardId)
                 .OnDelete(DeleteBehavior.Restrict);
-            SeedUsers();
-            builder.Entity<User>().HasData(this.GuestUser);
+            //SeedUsers();
+            //builder.Entity<User>().HasData(this.GuestUser);
 
-            SeedBoards();
-            builder.Entity<Board>().HasData(this.OpenBoard, this.InProgressBoard, this.DoneBoard);
+            //SeedBoards();
+            //builder.Entity<Board>().HasData(this.OpenBoard, this.InProgressBoard, this.DoneBoard);
 
-            builder.Entity<MyTask>()
-                .HasData(new MyTask()
-                {
-                    Id= 1,
-                    Title = "Prepare for ASP.NET",
-                    Description = "Learn using ASP.NET",
-                    CreatedOn = DateTime.Now.AddMonths(-1),
-                    OwnerId = this.GuestUser.FirstName,
-                    BoardId = this.OpenBoard.Id
-                },
-                new MyTask()
-                {
-                    Id = 2,
-                    Title = "Improve EFCore skills",
-                    Description = "Learn EFCore",
-                    CreatedOn = DateTime.Now.AddMonths(-5),
-                    OwnerId = this.GuestUser.FirstName,
-                    BoardId = this.OpenBoard.Id
-                },
-                new MyTask()
-                {
-                    Id = 3,
-                    Title = "Improve ASP.NET Core skills",
-                    Description = "Learn using ASP.NET Core Identity",
-                    CreatedOn = DateTime.Now.AddMonths(-10),
-                    OwnerId = this.GuestUser.FirstName,
-                    BoardId = this.OpenBoard.Id
-                },
-                new MyTask()
-                {
-                    Id = 4,
-                    Title = "Prepare for C# Fundamentals Exam",
-                    Description = "Prepare by solving old Mid and Final exams",
-                    CreatedOn = DateTime.Now.AddMonths(-1),
-                    OwnerId = this.GuestUser.FirstName,
-                    BoardId = this.OpenBoard.Id
-                });
+            //builder.Entity<MyTask>()
+            //    .HasData(new MyTask()
+            //    {
+            //        Id= 1,
+            //        Title = "Prepare for ASP.NET",
+            //        Description = "Learn using ASP.NET",
+            //        CreatedOn = DateTime.Now.AddMonths(-1),
+            //        OwnerId = this.GuestUser.FirstName,
+            //        BoardId = this.OpenBoard.Id
+            //    },
+            //    new MyTask()
+            //    {
+            //        Id = 2,
+            //        Title = "Improve EFCore skills",
+            //        Description = "Learn EFCore",
+            //        CreatedOn = DateTime.Now.AddMonths(-5),
+            //        OwnerId = this.GuestUser.FirstName,
+            //        BoardId = this.OpenBoard.Id
+            //    },
+            //    new MyTask()
+            //    {
+            //        Id = 3,
+            //        Title = "Improve ASP.NET Core skills",
+            //        Description = "Learn using ASP.NET Core Identity",
+            //        CreatedOn = DateTime.Now.AddMonths(-10),
+            //        OwnerId = this.GuestUser.FirstName,
+            //        BoardId = this.OpenBoard.Id
+            //    },
+            //    new MyTask()
+            //    {
+            //        Id = 4,
+            //        Title = "Prepare for C# Fundamentals Exam",
+            //        Description = "Prepare by solving old Mid and Final exams",
+            //        CreatedOn = DateTime.Now.AddMonths(-1),
+            //        OwnerId = this.GuestUser.FirstName,
+            //        BoardId = this.OpenBoard.Id
+            //    });
            
             base.OnModelCreating(builder);
         }

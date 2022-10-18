@@ -35,6 +35,74 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Boards/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXEJvYXJkc1xBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Shared/_TaskPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFNoYXJlZFxfVGFza1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFRhc2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Tasks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFRhc2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Tasks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFRhc2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Tasks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFRhc2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/TaskBoardApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VGFza0JvYXJkQXBwXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-kd3y5cpbwq
 
 [D:/Programming/C\# Web/ASP.NET Fundamentals/Code/ASP.NET Fundamentals/TaskBoardApp/TaskBoardApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

@@ -17,7 +17,7 @@ namespace TaskBoardApp.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.7")
+                .HasAnnotation("ProductVersion", "6.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -175,26 +175,9 @@ namespace TaskBoardApp.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Boards");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Open"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "In Progress"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Done"
-                        });
                 });
 
-            modelBuilder.Entity("TaskBoardApp.Data.Entities.Task", b =>
+            modelBuilder.Entity("TaskBoardApp.Data.Entities.MyTask", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -228,45 +211,7 @@ namespace TaskBoardApp.Data.Migrations
 
                     b.HasIndex("OwnerId");
 
-                    b.ToTable("Tasks");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BoardId = 1,
-                            CreatedOn = new DateTime(2022, 9, 14, 23, 12, 40, 230, DateTimeKind.Local).AddTicks(7893),
-                            Description = "Learn using ASP.NET",
-                            OwnerId = "Guest",
-                            Title = "Prepare for ASP.NET"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BoardId = 1,
-                            CreatedOn = new DateTime(2022, 5, 14, 23, 12, 40, 230, DateTimeKind.Local).AddTicks(7927),
-                            Description = "Learn EFCore",
-                            OwnerId = "Guest",
-                            Title = "Improve EFCore skills"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BoardId = 1,
-                            CreatedOn = new DateTime(2021, 12, 14, 23, 12, 40, 230, DateTimeKind.Local).AddTicks(7930),
-                            Description = "Learn using ASP.NET Core Identity",
-                            OwnerId = "Guest",
-                            Title = "Improve ASP.NET Core skills"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BoardId = 1,
-                            CreatedOn = new DateTime(2022, 9, 14, 23, 12, 40, 230, DateTimeKind.Local).AddTicks(7933),
-                            Description = "Prepare by solving old Mid and Final exams",
-                            OwnerId = "Guest",
-                            Title = "Prepare for C# Fundamentals Exam"
-                        });
+                    b.ToTable("MyTasks");
                 });
 
             modelBuilder.Entity("TaskBoardApp.Data.Entities.User", b =>
@@ -342,26 +287,6 @@ namespace TaskBoardApp.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "269b46bc-3140-44ac-a51b-7eff56634396",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "927c2834-53d0-4b13-bdac-f4e140a37961",
-                            Email = "guest@mail.com",
-                            EmailConfirmed = false,
-                            FirstName = "Guest",
-                            LastName = "User",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "GUESTMAIL@MAIL.COM",
-                            NormalizedUserName = "GUEST",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBRaYGObN6pKMPe0dAmliVXvHPKhEjRB/1Q17dGkSg8A/TBRc1xmKeqyp33gAwPM3Q==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "051b3242-0e86-4740-8d22-70ceded972ab",
-                            TwoFactorEnabled = false,
-                            UserName = "guest"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -415,10 +340,10 @@ namespace TaskBoardApp.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TaskBoardApp.Data.Entities.Task", b =>
+            modelBuilder.Entity("TaskBoardApp.Data.Entities.MyTask", b =>
                 {
                     b.HasOne("TaskBoardApp.Data.Entities.Board", "Board")
-                        .WithMany("Tasks")
+                        .WithMany("MyTasks")
                         .HasForeignKey("BoardId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -436,7 +361,7 @@ namespace TaskBoardApp.Data.Migrations
 
             modelBuilder.Entity("TaskBoardApp.Data.Entities.Board", b =>
                 {
-                    b.Navigation("Tasks");
+                    b.Navigation("MyTasks");
                 });
 #pragma warning restore 612, 618
         }
