@@ -42,9 +42,9 @@ namespace Watchlist.Controllers
 
             if (result.Succeeded)
             {
-                await signInManager.SignInAsync(user, isPersistent: false);
+                //await signInManager.SignInAsync(user, isPersistent: false); => Directly logins after valid registration
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "User");
             }
             foreach (var item in result.Errors)
             {
@@ -57,6 +57,10 @@ namespace Watchlist.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
+            if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                return RedirectToAction("All", "Movies");
+            }
             var model = new LoginViewModel();
             return View(model);
         }
@@ -76,7 +80,7 @@ namespace Watchlist.Controllers
                 var result = await signInManager.PasswordSignInAsync(user, model.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("All", "Movies");
                 }
             }
             ModelState.AddModelError("", "Invalid login");
