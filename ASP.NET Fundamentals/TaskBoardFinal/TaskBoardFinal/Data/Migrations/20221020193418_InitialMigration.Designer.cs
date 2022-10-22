@@ -11,7 +11,7 @@ using TaskBoardFinal.Data;
 
 namespace TaskBoardFinal.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(TaskBoardAppDbContext))]
     [Migration("20221020193418_InitialMigration")]
     partial class InitialMigration
     {

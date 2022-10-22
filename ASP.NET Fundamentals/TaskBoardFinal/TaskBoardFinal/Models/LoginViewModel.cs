@@ -5,8 +5,7 @@ namespace TaskBoardFinal.Models
     public class LoginViewModel
     {
         [Required]
-        [EmailAddress]
-        public string Email { get; set; }
+        public string FirstName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]

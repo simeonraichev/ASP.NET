@@ -73,7 +73,7 @@ namespace TaskBoardFinal.Controllers
             {
                 return View(model);
             }
-            var user = await userManager.FindByEmailAsync(model.Email);
+            var user = await userManager.FindByNameAsync(model.FirstName);
 
             if (user != null)
             {

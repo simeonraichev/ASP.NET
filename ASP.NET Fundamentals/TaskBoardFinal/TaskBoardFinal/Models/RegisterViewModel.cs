@@ -4,10 +4,10 @@ namespace TaskBoardFinal.Models
 {
     public class RegisterViewModel
     {
-        [Required]
-        [EmailAddress]
-        [StringLength(60, MinimumLength = 10)]
-        public string Email { get; set; } = null!;
+        //    [Required]
+        //    [EmailAddress]
+        //    [StringLength(60, MinimumLength = 10)]
+        //    public string Email { get; set; } = null!;
 
         [Required]
         [StringLength(20, MinimumLength = 5)]
