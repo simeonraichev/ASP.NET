@@ -13,5 +13,24 @@ namespace Watchlist.Controllers
             }
             return View();
         }
+
+        public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Upload(List<IFormFile> files)
+        {
+            var result = new
+            {
+                fileCount = files.Count,
+                fileSize = files.Sum(f => f.Length)
+            };
+
+            
+            return Ok(result);
+        }
+
     }
 }
