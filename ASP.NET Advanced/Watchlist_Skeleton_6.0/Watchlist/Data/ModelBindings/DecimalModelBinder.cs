@@ -23,10 +23,6 @@ namespace Watchlist.Data.ModelBindings
                     actualValue = Convert.ToDecimal(decValue, CultureInfo.CurrentCulture);
                     success = true;
 
-                    if (success)
-                    {
-                        bindingContext.Result = ModelBindingResult.Success(actualValue);
-                    }
                 }
                 catch (FormatException fe)
                 {
@@ -34,6 +30,10 @@ namespace Watchlist.Data.ModelBindings
 
                 }
 
+                if (success)
+                {
+                    bindingContext.Result = ModelBindingResult.Success(actualValue);
+                }
             }
             return Task.CompletedTask;
         }

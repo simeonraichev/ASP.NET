@@ -5,6 +5,7 @@ using System.Security.Claims;
 using Watchlist.Contracts;
 using Watchlist.Data;
 using Watchlist.Data.Models;
+using Watchlist.Filters;
 using Watchlist.Models;
 
 namespace Watchlist.Controllers
@@ -43,6 +44,7 @@ namespace Watchlist.Controllers
         }
 
         [HttpGet]
+        [MyActionAttribute]
         public async Task<IActionResult> Add()
         {
 

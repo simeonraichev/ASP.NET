@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3OVZcNrf7gBLurjhuwVuujsbqQQdifTzzlWyf05w7g4AWSm+P9WTf+xQcx0LB0i+DZzy/VNKzrXqkZZaU5Yzag==",
+  "dgSpecHash": "mWULEnIitVRyN8lSJNUF00n1czIhPM4UpcufQt72uv5htfQqzL0F8dHdhelWYKCEgf60IWaAo8n9QrUiyn82sw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
+  "projectFilePath": "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simeo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\simeo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

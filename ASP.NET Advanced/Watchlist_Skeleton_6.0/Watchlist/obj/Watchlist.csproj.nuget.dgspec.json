@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj": {}
+    "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj": {
+    "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
+        "projectUniqueName": "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
         "projectName": "Watchlist",
-        "projectPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
+        "projectPath": "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\Watchlist.csproj",
         "packagesPath": "C:\\Users\\simeo\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C# Web\\ASP.NET Fundamentals\\Code\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\obj\\",
+        "outputPath": "D:\\Programming\\C# Web\\ASP.NET Advanced\\Watchlist_Skeleton_6.0\\Watchlist\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
